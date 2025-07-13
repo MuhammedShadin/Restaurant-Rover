@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -226,7 +227,9 @@
             }
         }
     </style>-->
+
 </head>
+
 <body>
     <header>
         <div class="navbar">
@@ -236,27 +239,126 @@
             </nav>
         </div>
     </header>
-    
+
     <section class="search-container">
         <div class="search-box">
             <input class="search-area" type="text" placeholder="Search for restaurants by name, cuisine or location...">
             <button class="search-button">Search</button>
         </div>
     </section>
-    
+
     <main class="main-content">
         <h2 class="section-title">Popular Indian Restaurants</h2>
-        
-        <div class="restaurants-grid" id="restaurants">
-            <!-- Restaurant cards will be populated here -->
-        </div>
     </main>
-    
+    <section class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 1</h5>
+                        <p class="card-text">An amazing restaurant in this area. This restaurant provides you good indian food and a good service.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <button type="button" class="btn btn-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Click Me</button>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info</button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 3</h5>
+                        <p class="card-text">An amazing restaurant in this area. This restaurant provides you good indian food and a good service.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info</button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">   
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 6</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>© 2023 Restaurant Finder. All rights reserved.</p>
     </footer>
-    
-    <script>
+
+    <!--<script>
         // Sample restaurant data
         const restaurants = [
             {
@@ -376,7 +478,16 @@
                 }
             });
         });
-    </script>
+    </script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
-</html>
 
+
+</html>
