@@ -3,236 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Finder</title>
+    <title>Arabian Cuisine</title>
     <link rel="stylesheet" href="css/style.css">
-    <!--<style>
-        :root {
-            --primary-color: #ff6b6b;
-            --secondary-color: #ff8e8e;
-            --dark-color: #333;
-            --light-color: #f8f9fa;
-            --highlight-color: #fff8e1;
-            --success-color: #4caf50;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: var(--light-color);
-            color: var(--dark-color);
-            line-height: 1.6;
-        }
-        
-        header {
-            background-color: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            padding: 1rem 2rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
-        
-        .search-container {
-            padding: 2rem;
-            background: var(--primary-color);
-            color: white;
-            text-align: center;
-        }
-        
-        .search-box {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        .search-box input {
-            width: 70%;
-            padding: 0.8rem;
-            border: none;
-            border-radius: 4px 0 0 4px;
-            font-size: 1rem;
-        }
-        
-        .search-box button {
-            width: 30%;
-            padding: 0.8rem;
-            background: var(--dark-color);
-            color: white;
-            border: none;
-            border-radius: 0 4px 4px 0;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background 0.3s;
-        }
-        
-        .search-box button:hover {
-            background: #555;
-        }
-        
-        .filters {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        
-        .filter {
-            padding: 0.5rem 1rem;
-            background: white;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            cursor: pointer;
-            transition: all 0.3s;
-            border: 1px solid #ddd;
-        }
-        
-        .filter:hover, .filter.active {
-            background: var(--dark-color);
-            color: white;
-            border-color: var(--dark-color);
-        }
-        
-        .main-content {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        
-        .section-title {
-            margin-bottom: 2rem;
-            font-size: 1.5rem;
-            text-align: center;
-        }
-        
-        .restaurants-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        
-        .restaurant-card {
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .restaurant-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
-        
-        .card-image {
-            height: 200px;
-            overflow: hidden;
-        }
-        
-        .card-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-        
-        .restaurant-card:hover .card-image img {
-            transform: scale(1.05);
-        }
-        
-        .card-content {
-            padding: 1.5rem;
-        }
-        
-        .restaurant-name {
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
-        
-        .restaurant-cuisine {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-        }
-        
-        .restaurant-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 1rem;
-        }
-        
-        .restaurant-rating {
-            background: var(--success-color);
-            color: white;
-            padding: 0.3rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .restaurant-price {
-            color: #666;
-            font-size: 0.9rem;
-        }
-        
-        footer {
-            background: var(--dark-color);
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
-        }
-        
-        @media (max-width: 768px) {
-            .navbar {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .search-box {
-                width: 100%;
-            }
-            
-            .search-box input {
-                width: 60%;
-            }
-            
-            .search-box button {
-                width: 40%;
-            }
-            
-            .filters {
-                flex-wrap: wrap;
-            }
-        }
-    </style>-->
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="logo">Arabian Cuisines</div>
             <nav>
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
             </nav>
         </div>
     </header>
@@ -251,132 +30,114 @@
             <!-- Restaurant cards will be populated here -->
         </div>
     </main>
-    
+    <section class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 1</h5>
+                        <p class="card-text">An amazing restaurant in this area. This restaurant provides you good indian food and a good service.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <button type="button" class="btn btn-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Click Me</button>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info</button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 3</h5>
+                        <p class="card-text">An amazing restaurant in this area. This restaurant provides you good indian food and a good service.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info</button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">   
+                <div class="card mt-5" style="width: 18rem; margin: auto;">
+                    <img src="./images/pic-one.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant 6</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <button type="button" class="btn btn-info">More Info </button>
+                    </ul>
+                    <!--<div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>© 2023 Restaurant Finder. All rights reserved.</p>
     </footer>
     
-    <script>
-        // Sample restaurant data
-        const restaurants = [
-            {
-                name: "Trattoria Romana",
-                cuisine: "Italian",
-                rating: 4.8,
-                price: "$$",
-                description: "Authentic Italian cuisine with homemade pasta and wine selection.",
-                imageAlt: "Cozy Italian restaurant interior with checkered tablecloths and hanging garlic strands"
-            },
-            {
-                name: "Sakura Sushi Bar",
-                cuisine: "Japanese",
-                rating: 4.7,
-                price: "$$$",
-                description: "Fresh sushi and traditional Japanese dishes in a modern setting.",
-                imageAlt: "Artistically arranged sushi platter on a black slate with chopsticks"
-            },
-            {
-                name: "La Taqueria",
-                cuisine: "Mexican",
-                rating: 4.5,
-                price: "$",
-                description: "Street-style tacos and authentic Mexican flavors since 1995.",
-                imageAlt: "Colorful taco spread with various fillings and fresh ingredients on a wooden table"
-            },
-            {
-                name: "The Grill House",
-                cuisine: "American",
-                rating: 4.3,
-                price: "$$",
-                description: "Premium steaks and American classics with craft beer selection.",
-                imageAlt: "Juicy steak on a wooden cutting board with grill marks and sides"
-            },
-            {
-                name: "Curry Leaf",
-                cuisine: "Indian",
-                rating: 4.6,
-                price: "$$",
-                description: "Authentic South Indian vegetarian cuisine with aromatic spices.",
-                imageAlt: "Traditional Indian thali with various curries, rice, and bread on a metal tray"
-            },
-            {
-                name: "Le Petit Bistro",
-                cuisine: "French",
-                rating: 4.9,
-                price: "$$$",
-                description: "Classic French cuisine and fine wines in an elegant atmosphere.",
-                imageAlt: "Elegant French bistro setting with white tablecloths and wine glasses"
-            }
-        ];
-        
-        // Function to render restaurant cards
-        function renderRestaurants() {
-            const container = document.getElementById('restaurants');
-            container.innerHTML = '';
-            
-            restaurants.forEach(restaurant => {
-                const card = document.createElement('div');
-                card.className = 'restaurant-card';
-                
-                card.innerHTML = `
-                    <div class="card-image">
-                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ef06c455-c669-441e-be58-1929307ecaff.png" alt="${restaurant.imageAlt}" />
-                    </div>
-                    <div class="card-content">
-                        <h3 class="restaurant-name">${restaurant.name}</h3>
-                        <p class="restaurant-cuisine">${restaurant.cuisine} • ${restaurant.description}</p>
-                        <div class="restaurant-info">
-                            <div class="restaurant-rating">
-                                ${restaurant.rating} ★
-                            </div>
-                            <div class="restaurant-price">
-                                ${restaurant.price}
-                            </div>
-                        </div>
-                    </div>
-                `;
-                
-                container.appendChild(card);
-            });
-        }
-        
-        // Initialize the page
-        document.addEventListener('DOMContentLoaded', () => {
-            renderRestaurants();
-            
-            // Filter functionality
-            const filters = document.querySelectorAll('.filter');
-            filters.forEach(filter => {
-                filter.addEventListener('click', () => {
-                    filters.forEach(f => f.classList.remove('active'));
-                    filter.classList.add('active');
-                    
-                    // Filter logic would go here
-                    // For now we're just showing all restaurants
-                    renderRestaurants();
-                });
-            });
-            
-            // Search functionality
-            const searchInput = document.querySelector('.search-box input');
-            const searchButton = document.querySelector('.search-box button');
-            
-            searchButton.addEventListener('click', () => {
-                const searchTerm = searchInput.value.toLowerCase();
-                // Search logic would go here
-                // For now we're just logging the search term
-                console.log('Searching for:', searchTerm);
-            });
-            
-            searchInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') {
-                    const searchTerm = searchInput.value.toLowerCase();
-                    // Search logic would go here
-                    console.log('Searching for:', searchTerm);
-                }
-            });
-        });
-    </script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
